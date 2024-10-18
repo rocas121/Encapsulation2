@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: Le répertoire intermédiaire (x64\Debug\) contient des fichiers partagés provenant d'un autre projet (siplusplus.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+  main.cpp
+C:\Users\rzhang\Pictures\Encapsulation\siplusplus\main.cpp(222,16): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\rzhang\Pictures\Encapsulation\siplusplus\main.cpp(234,22): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\rzhang\Pictures\Encapsulation\siplusplus\main.cpp(235,22): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\rzhang\Pictures\Encapsulation\siplusplus\main.cpp(236,28): warning C4244: '-=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\rzhang\Pictures\Encapsulation\siplusplus\main.cpp(237,28): warning C4244: '-=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\rzhang\Pictures\Encapsulation\siplusplus\main.cpp(246,28): warning C4838: la conversion de 'int' en 'Uint8' requiert une conversion restrictive
+C:\Users\rzhang\Pictures\Encapsulation\siplusplus\main.cpp(246,31): warning C4838: la conversion de 'int' en 'Uint8' requiert une conversion restrictive
+C:\Users\rzhang\Pictures\Encapsulation\siplusplus\main.cpp(246,34): warning C4838: la conversion de 'int' en 'Uint8' requiert une conversion restrictive
+  siplusplus.vcxproj -> C:\Users\rzhang\Pictures\Encapsulation\x64\Debug\Encapsulation.exe
