@@ -44,7 +44,7 @@ void init() {
 	}
 
 	//Window and renderer
-	window = SDL_CreateWindow("Encapsulation", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, screen.x, screen.y, SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
+	window = SDL_CreateWindow("Encapsulation Project", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, screen.x, screen.y, SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 
 
@@ -260,8 +260,6 @@ int main(int argc, char* argv[]) {
 	init();
 
 	vector<Ball> ballVector; //Init infinite ball vecor
-
-	bool spawning = false;
 
 	//init 
 	Uint32 ballTime = 0;
